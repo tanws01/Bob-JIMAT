@@ -1,0 +1,832 @@
+{
+"johor|batu pahat": {
+"lat": 1.933333,
+"lon": 103.0,
+"src": "osm"
+},
+"johor|johor bahru": {
+"lat": 1.4581986,
+"lon": 103.7649059,
+"src": "osm"
+},
+"johor|kluang": {
+"lat": 2.0323472,
+"lon": 103.3190766,
+"src": "osm"
+},
+"johor|kota tinggi": {
+"lat": 1.7336743,
+"lon": 103.9006975,
+"src": "osm"
+},
+"johor|ledang": {
+"lat": 2.25,
+"lon": 102.5833333,
+"src": "osm"
+},
+"johor|mersing": {
+"lat": 2.4298532,
+"lon": 103.835494,
+"src": "osm"
+},
+"johor|muar": {
+"lat": 2.05,
+"lon": 102.5666667,
+"src": "osm"
+},
+"johor|pontian": {
+"lat": 1.5,
+"lon": 103.5,
+"src": "osm"
+},
+"johor|segamat": {
+"lat": 2.4922096,
+"lon": 102.8449219,
+"src": "osm"
+},
+"johor|tangkak": {
+"lat": 2.25,
+"lon": 102.5833333,
+"src": "osm"
+},
+"kedah|baling": {
+"lat": 5.5507199,
+"lon": 100.797587,
+"src": "osm"
+},
+"kedah|kota setar": {
+"lat": 6.122603,
+"lon": 100.3690317,
+"src": "osm"
+},
+"kedah|kuala muda": {
+"lat": 5.7073152,
+"lon": 100.4952892,
+"src": "osm"
+},
+"kedah|kubang pasu": {
+"lat": 6.3356376,
+"lon": 100.3723218,
+"src": "osm"
+},
+"kedah|kulim": {
+"lat": 5.3707128,
+"lon": 100.6172071,
+"src": "osm"
+},
+"kedah|langkawi": {
+"lat": 6.3700386,
+"lon": 99.7928634,
+"src": "osm"
+},
+"kedah|padang terap": {
+"lat": 6.2566513,
+"lon": 100.6645805,
+"src": "osm"
+},
+"kedah|pendang": {
+"lat": 5.9720841,
+"lon": 100.5501852,
+"src": "osm"
+},
+"kedah|pokok sena": {
+"lat": 6.1730525,
+"lon": 100.5203915,
+"src": "osm"
+},
+"kedah|sik": {
+"lat": 5.9239011,
+"lon": 100.8231021,
+"src": "osm"
+},
+"kedah|yan": {
+"lat": 5.8482755,
+"lon": 100.4151899,
+"src": "osm"
+},
+"kelantan|bachok": {
+"lat": 5.9951191,
+"lon": 102.3867413,
+"src": "osm"
+},
+"kelantan|dabong": {
+"lat": 5.3767384,
+"lon": 102.0099222,
+"src": "osm"
+},
+"kelantan|gua musang": {
+"lat": 5.0198136,
+"lon": 102.0382663,
+"src": "osm"
+},
+"kelantan|jeli": {
+"lat": 5.5900186,
+"lon": 101.8171685,
+"src": "osm"
+},
+"kelantan|kota bharu": {
+"lat": 6.1247911,
+"lon": 102.2378065,
+"src": "osm"
+},
+"kelantan|kuala krai": {
+"lat": 5.5311582,
+"lon": 102.1993666,
+"src": "osm"
+},
+"kelantan|machang": {
+"lat": 5.7676702,
+"lon": 102.2380822,
+"src": "osm"
+},
+"kelantan|pasir mas": {
+"lat": 6.0080942,
+"lon": 102.0925134,
+"src": "osm"
+},
+"kelantan|pasir puteh": {
+"lat": 5.8346168,
+"lon": 102.3829644,
+"src": "osm"
+},
+"kelantan|tanah merah": {
+"lat": 5.7663046,
+"lon": 102.0341478,
+"src": "osm"
+},
+"kelantan|tumpat": {
+"lat": 6.176396,
+"lon": 102.1663281,
+"src": "osm"
+},
+"melaka|alor gajah": {
+"lat": 2.3834528,
+"lon": 102.2107805,
+"src": "osm"
+},
+"melaka|jasin": {
+"lat": 2.3058097,
+"lon": 102.422339,
+"src": "osm"
+},
+"melaka|melaka tengah": {
+"lat": 2.2301451,
+"lon": 102.2453068,
+"src": "osm"
+},
+"negeri sembilan|bahau": {
+"lat": 2.8113584,
+"lon": 102.4038906,
+"src": "osm"
+},
+"negeri sembilan|jelebu": {
+"lat": 3.0366264,
+"lon": 102.1179206,
+"src": "osm"
+},
+"negeri sembilan|johol": {
+"lat": 2.5984158,
+"lon": 102.2621647,
+"src": "osm"
+},
+"negeri sembilan|kuala pilah": {
+"lat": 2.7430758,
+"lon": 102.2154881,
+"src": "osm"
+},
+"negeri sembilan|port dickson": {
+"lat": 2.5262491,
+"lon": 101.8106156,
+"src": "osm"
+},
+"negeri sembilan|rembau": {
+"lat": 2.5578923,
+"lon": 102.1081637,
+"src": "osm"
+},
+"negeri sembilan|seremban": {
+"lat": 2.723099,
+"lon": 101.9400601,
+"src": "osm"
+},
+"negeri sembilan|tampin": {
+"lat": 2.5542371,
+"lon": 102.4459956,
+"src": "osm"
+},
+"pahang|bentong": {
+"lat": 3.3624708,
+"lon": 102.0172675,
+"src": "osm"
+},
+"pahang|bera": {
+"lat": 3.2366738,
+"lon": 102.5417723,
+"src": "osm"
+},
+"pahang|jerantut": {
+"lat": 4.2834137,
+"lon": 102.5575232,
+"src": "osm"
+},
+"pahang|kuantan": {
+"lat": 3.7974493,
+"lon": 103.3219191,
+"src": "osm"
+},
+"pahang|lipis": {
+"lat": 4.3242506,
+"lon": 101.9085845,
+"src": "osm"
+},
+"pahang|maran": {
+"lat": 3.601443,
+"lon": 102.6410048,
+"src": "osm"
+},
+"pahang|pekan": {
+"lat": 3.3781961,
+"lon": 103.2096122,
+"src": "osm"
+},
+"pahang|raub": {
+"lat": 3.8843564,
+"lon": 101.7920275,
+"src": "osm"
+},
+"pahang|rompin": {
+"lat": 2.8245772,
+"lon": 103.0993556,
+"src": "osm"
+},
+"pahang|temerloh": {
+"lat": 3.6124468,
+"lon": 102.2566818,
+"src": "osm"
+},
+"perak|bagan datuk": {
+"lat": 3.9166667,
+"lon": 100.9166667,
+"src": "osm"
+},
+"perak|batang padang": {
+"lat": 4.0833333,
+"lon": 101.3333333,
+"src": "osm"
+},
+"perak|hilir perak": {
+"lat": 4.0,
+"lon": 101.0,
+"src": "osm"
+},
+"perak|hulu perak": {
+"lat": 5.4479728,
+"lon": 101.2971493,
+"src": "osm"
+},
+"perak|kerian": {
+"lat": 5.0345753,
+"lon": 100.4984585,
+"src": "osm"
+},
+"perak|kinta": {
+"lat": 4.5833333,
+"lon": 101.0833333,
+"src": "osm"
+},
+"perak|kuala kangsar": {
+"lat": 4.7720713,
+"lon": 100.9408776,
+"src": "osm"
+},
+"perak|larut, matang & selama": {
+"lat": 4.8166917,
+"lon": 100.66436,
+"src": "osm"
+},
+"perak|manjung": {
+"lat": 4.334761,
+"lon": 100.6342662,
+"src": "osm"
+},
+"perak|muallim": {
+"lat": 3.8333333,
+"lon": 101.5,
+"src": "osm"
+},
+"perak|perak tengah": {
+"lat": 4.25,
+"lon": 100.9166667,
+"src": "osm"
+},
+"perlis|arau": {
+"lat": 6.4307281,
+"lon": 100.2718795,
+"src": "osm"
+},
+"perlis|kangar": {
+"lat": 6.4389312,
+"lon": 100.1944838,
+"src": "osm"
+},
+"perlis|padang besar": {
+"lat": 6.6626841,
+"lon": 100.3201982,
+"src": "osm"
+},
+"pulau pinang|barat daya": {
+"lat": 5.3356587,
+"lon": 100.2389496,
+"src": "osm"
+},
+"pulau pinang|seberang perai selatan": {
+"lat": 5.2169636,
+"lon": 100.4804658,
+"src": "osm"
+},
+"pulau pinang|seberang perai tengah": {
+"lat": 5.3610703,
+"lon": 100.4573584,
+"src": "osm"
+},
+"pulau pinang|seberang perai utara": {
+"lat": 5.4992806,
+"lon": 100.4467987,
+"src": "osm"
+},
+"pulau pinang|timur laut": {
+"lat": 5.4103136,
+"lon": 100.2870311,
+"src": "osm"
+},
+"sabah|beaufort": {
+"lat": 5.2911244,
+"lon": 115.672474,
+"src": "osm"
+},
+"sabah|kalabakan": {
+"lat": 4.4808936,
+"lon": 117.4071326,
+"src": "osm"
+},
+"sabah|keningau": {
+"lat": 5.2179477,
+"lon": 116.2463149,
+"src": "osm"
+},
+"sabah|kimanis": {
+"lat": 5.6150677,
+"lon": 115.8883036,
+"src": "osm"
+},
+"sabah|kota belud": {
+"lat": 6.3347195,
+"lon": 116.4835961,
+"src": "osm"
+},
+"sabah|kota kinabalu": {
+"lat": 5.9780066,
+"lon": 116.0728988,
+"src": "osm"
+},
+"sabah|kota marudu": {
+"lat": 6.4465546,
+"lon": 116.828293,
+"src": "osm"
+},
+"sabah|kuala penyu": {
+"lat": 5.4401919,
+"lon": 115.4949313,
+"src": "osm"
+},
+"sabah|kudat": {
+"lat": 7.2316455,
+"lon": 117.1711562,
+"src": "osm"
+},
+"sabah|kunak": {
+"lat": 4.6857678,
+"lon": 118.0170657,
+"src": "osm"
+},
+"sabah|lahad datu": {
+"lat": 5.1155093,
+"lon": 118.4306361,
+"src": "osm"
+},
+"sabah|membakut": {
+"lat": 5.4726679,
+"lon": 115.7966926,
+"src": "osm"
+},
+"sabah|nabawan": {
+"lat": 4.6955329,
+"lon": 116.4837611,
+"src": "osm"
+},
+"sabah|papar": {
+"lat": 5.7461495,
+"lon": 116.0449789,
+"src": "osm"
+},
+"sabah|penampang": {
+"lat": 5.8626228,
+"lon": 116.1138146,
+"src": "osm"
+},
+"sabah|pitas": {
+"lat": 6.731706,
+"lon": 117.1254051,
+"src": "osm"
+},
+"sabah|putatan": {
+"lat": 5.8814478,
+"lon": 116.0656182,
+"src": "osm"
+},
+"sabah|ranau": {
+"lat": 5.8980313,
+"lon": 116.6696079,
+"src": "osm"
+},
+"sabah|sandakan": {
+"lat": 5.8391274,
+"lon": 118.1158598,
+"src": "osm"
+},
+"sabah|semporna": {
+"lat": 4.4790765,
+"lon": 118.4297732,
+"src": "osm"
+},
+"sabah|sipitang": {
+"lat": 4.634452,
+"lon": 115.6861012,
+"src": "osm"
+},
+"sabah|sook": {
+"lat": 5.1423979,
+"lon": 116.289617,
+"src": "osm"
+},
+"sabah|tambunan": {
+"lat": 5.6860031,
+"lon": 116.4119595,
+"src": "osm"
+},
+"sabah|tamparuli": {
+"lat": 6.1358087,
+"lon": 116.2689572,
+"src": "osm"
+},
+"sabah|tawau": {
+"lat": 4.2435206,
+"lon": 117.885331,
+"src": "osm"
+},
+"sabah|tenom": {
+"lat": 4.9104025,
+"lon": 115.9050951,
+"src": "osm"
+},
+"sabah|tuaran": {
+"lat": 6.0659214,
+"lon": 116.3198111,
+"src": "osm"
+},
+"sarawak|batu niah": {
+"lat": 3.803022,
+"lon": 113.7553765,
+"src": "osm"
+},
+"sarawak|bau": {
+"lat": 1.417864,
+"lon": 110.1553336,
+"src": "osm"
+},
+"sarawak|bekenu": {
+"lat": 4.0578322,
+"lon": 113.8460823,
+"src": "osm"
+},
+"sarawak|belaga": {
+"lat": 2.660919,
+"lon": 114.3816514,
+"src": "osm"
+},
+"sarawak|betong": {
+"lat": 1.4818834,
+"lon": 111.550659,
+"src": "osm"
+},
+"sarawak|bintulu": {
+"lat": 3.1874261,
+"lon": 113.0472803,
+"src": "osm"
+},
+"sarawak|dalat": {
+"lat": 2.701079,
+"lon": 111.960895,
+"src": "osm"
+},
+"sarawak|engkelili": {
+"lat": 1.134734,
+"lon": 111.6635278,
+"src": "osm"
+},
+"sarawak|julau": {
+"lat": 1.8198041,
+"lon": 111.8990022,
+"src": "osm"
+},
+"sarawak|kanowit": {
+"lat": 1.9353302,
+"lon": 112.2098575,
+"src": "osm"
+},
+"sarawak|kapit": {
+"lat": 2.0139027,
+"lon": 112.9356766,
+"src": "osm"
+},
+"sarawak|kota padawan": {
+"lat": 1.4276862,
+"lon": 110.325596,
+"src": "osm"
+},
+"sarawak|kota samarahan": {
+"lat": 1.4636982,
+"lon": 110.4891268,
+"src": "osm"
+},
+"sarawak|kuching": {
+"lat": 1.5597561,
+"lon": 110.345397,
+"src": "osm"
+},
+"sarawak|lawas": {
+"lat": 4.4551211,
+"lon": 115.427188,
+"src": "osm"
+},
+"sarawak|limbang": {
+"lat": 4.3519985,
+"lon": 115.0602417,
+"src": "osm"
+},
+"sarawak|lundu": {
+"lat": 1.747985,
+"lon": 109.7771848,
+"src": "osm"
+},
+"sarawak|marudi": {
+"lat": 4.1766125,
+"lon": 114.3604754,
+"src": "osm"
+},
+"sarawak|meradong": {
+"lat": 2.1676316,
+"lon": 111.6779884,
+"src": "osm"
+},
+"sarawak|miri": {
+"lat": 4.3940102,
+"lon": 113.9880199,
+"src": "osm"
+},
+"sarawak|mukah": {
+"lat": 2.8118528,
+"lon": 112.291206,
+"src": "osm"
+},
+"sarawak|pakan": {
+"lat": 1.7829988,
+"lon": 111.6625798,
+"src": "osm"
+},
+"sarawak|sarikei": {
+"lat": 2.0507707,
+"lon": 111.4176,
+"src": "osm"
+},
+"sarawak|sebauh": {
+"lat": 3.1089346,
+"lon": 113.2692428,
+"src": "osm"
+},
+"sarawak|selangau": {
+"lat": 2.4955896,
+"lon": 112.3524958,
+"src": "osm"
+},
+"sarawak|serian": {
+"lat": 1.1008615,
+"lon": 110.7103736,
+"src": "osm"
+},
+"sarawak|sibu": {
+"lat": 2.2996601,
+"lon": 111.8710012,
+"src": "osm"
+},
+"sarawak|sibujaya": {
+"lat": 2.2409297,
+"lon": 111.9736034,
+"src": "osm"
+},
+"sarawak|simunjan": {
+"lat": 1.3609323,
+"lon": 110.8383263,
+"src": "osm"
+},
+"sarawak|song": {
+"lat": 1.814243,
+"lon": 112.6478712,
+"src": "osm"
+},
+"sarawak|sri aman": {
+"lat": 1.2088355,
+"lon": 111.4080293,
+"src": "osm"
+},
+"sarawak|tanjung manis": {
+"lat": 2.1338299,
+"lon": 111.335745,
+"src": "osm"
+},
+"sarawak|tatau": {
+"lat": 2.6234392,
+"lon": 113.1503927,
+"src": "osm"
+},
+"selangor|gombak": {
+"lat": 3.3,
+"lon": 101.7,
+"src": "osm"
+},
+"selangor|hulu langat": {
+"lat": 3.083333,
+"lon": 101.833333,
+"src": "osm"
+},
+"selangor|hulu selangor": {
+"lat": 3.5367441,
+"lon": 101.5949347,
+"src": "osm"
+},
+"selangor|klang": {
+"lat": 3.0448394,
+"lon": 101.4447363,
+"src": "osm"
+},
+"selangor|kuala langat": {
+"lat": 2.8365619,
+"lon": 101.4961821,
+"src": "osm"
+},
+"selangor|kuala selangor": {
+"lat": 3.3621022,
+"lon": 101.3455503,
+"src": "osm"
+},
+"selangor|petaling": {
+"lat": 3.083333,
+"lon": 101.583333,
+"src": "osm"
+},
+"selangor|petaling jaya": {
+"lat": 3.0988792,
+"lon": 101.6454202,
+"src": "osm"
+},
+"selangor|sabak bernam": {
+"lat": 3.6871153,
+"lon": 101.0580588,
+"src": "osm"
+},
+"selangor|sepang": {
+"lat": 2.8008619,
+"lon": 101.7094012,
+"src": "osm"
+},
+"terengganu|besut": {
+"lat": 5.5833333,
+"lon": 102.5,
+"src": "osm"
+},
+"terengganu|dungun": {
+"lat": 4.7643972,
+"lon": 103.4184463,
+"src": "osm"
+},
+"terengganu|hulu terengganu": {
+"lat": 4.910689,
+"lon": 102.7650701,
+"src": "osm"
+},
+"terengganu|kemaman": {
+"lat": 4.2345863,
+"lon": 103.4235854,
+"src": "osm"
+},
+"terengganu|kuala nerus": {
+"lat": 5.3957398,
+"lon": 103.0615343,
+"src": "osm"
+},
+"terengganu|kuala terengganu": {
+"lat": 5.3296461,
+"lon": 103.1383265,
+"src": "osm"
+},
+"terengganu|marang": {
+"lat": 5.1666667,
+"lon": 103.1666667,
+"src": "osm"
+},
+"terengganu|setiu": {
+"lat": 5.5500806,
+"lon": 102.7355111,
+"src": "osm"
+},
+"w.p. kuala lumpur|bandar tun razak": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|batu": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|bukit bintang": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|cheras": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|kepong": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|lembah pantai": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|segambut": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|seputeh": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|setiawangsa": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|titiwangsa": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. kuala lumpur|wangsa maju": {
+"lat": 3.14,
+"lon": 101.69,
+"src": "state"
+},
+"w.p. labuan|kawasan bandar": {
+"lat": 5.28,
+"lon": 115.24,
+"src": "state"
+},
+"w.p. labuan|kawasan luar bandar": {
+"lat": 5.28,
+"lon": 115.24,
+"src": "state"
+},
+"w.p. labuan|w.p labuan": {
+"lat": 5.28,
+"lon": 115.24,
+"src": "state"
+},
+"w.p. putrajaya|cyberjaya": {
+"lat": 2.9148825,
+"lon": 101.6696591,
+"src": "osm"
+},
+"w.p. putrajaya|wp putrajaya": {
+"lat": 2.93,
+"lon": 101.69,
+"src": "state"
+}
+}

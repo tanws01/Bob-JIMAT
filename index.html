@@ -1,0 +1,210 @@
+<!--
+  JIMAT — Shop Smarter. Save More.
+  Creator: Tan Wei Siang. Fully owned by Tan Wei Siang.
+-->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JIMAT — Shop Smarter. Save More.</title>
+  <meta name="description" content="JIMAT turns Malaysia's open price data into three optimised grocery shopping strategies in seconds — balancing price, distance and convenience." />
+  <meta name="author" content="Tan Wei Siang" />
+  <meta name="owner" content="Tan Wei Siang" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>" />
+</head>
+<body>
+  <div class="watermark" aria-hidden="true"></div>
+
+  <!-- ================= Header ================= -->
+  <header class="app-header">
+    <div class="brand-wrap">
+      <div class="brand"><span class="cart">🛒</span>JIMAT</div>
+      <div class="brand-credit">Creator &amp; owner: Tan Wei Siang</div>
+    </div>
+    <div class="header-spacer"></div>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+    <div class="header-spacer"></div>
+    <span class="data-pill" id="data-pill"><span class="d"></span><span data-i18n="data.pill">DOSM open data</span></span>
+    <select class="lang-select" id="langSel" aria-label="Language" data-i18n-aria="ui.language"></select>
+    <button class="icon-btn" id="themeToggle" title="Toggle light / dark" data-i18n-title="ui.themeToggle" aria-label="Toggle theme">◐</button>
+  </header>
+
+  <main class="stage">
+
+    <!-- ========= 1. Landing ========= -->
+    <section class="screen active" data-screen="landing">
+      <div class="hero stagger">
+        <div class="floaties" aria-hidden="true"><span>🥚</span><span>🍚</span><span>🍗</span><span>🛒</span><span>🫗</span><span>💰</span></div>
+        <div class="badge-live" data-i18n="landing.badge">Powered by Malaysia's open price data</div>
+        <div class="jimat-mark">JIMAT</div>
+        <h1 data-i18n-html="landing.title">Stop overpaying<br />for your groceries</h1>
+        <p class="sub" data-i18n-html="landing.sub">Don't just find the cheapest product — find the <strong>smartest way to buy your whole basket</strong>. JIMAT weighs price, distance and convenience, then hands you three ready-to-shop plans.</p>
+        <div><button class="btn btn-primary btn-lg" data-go="location" data-i18n="landing.cta">🛒 Optimise my basket →</button></div>
+        <div class="hero-stats">
+          <div class="st"><b data-i18n="landing.stat1v">RM1,032</b><span data-i18n="landing.stat1k">saved / year, average basket</span></div>
+          <div class="st"><b data-i18n="landing.stat2v">~12%</b><span data-i18n="landing.stat2k">lower spend, same groceries</span></div>
+          <div class="st"><b data-i18n="landing.stat3v">3 plans</b><span data-i18n="landing.stat3k">in seconds, tailored to you</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= 2. Location ========= -->
+    <section class="screen" data-screen="location">
+      <div class="stagger">
+        <div class="eyebrow" data-i18n="loc.step">Step 1 — Where are you shopping?</div>
+        <h2 class="mb-8" data-i18n="loc.title">Set your location</h2>
+        <p class="lead mb-16" data-i18n="loc.lead">JIMAT finds the stores near you and how far you're willing to travel for a better price.</p>
+        <div class="card">
+          <div class="grid-2">
+            <label class="field"><span class="lab" data-i18n="loc.state">📍 State</span><select id="in-state"></select></label>
+            <label class="field"><span class="lab" data-i18n="loc.district">📍 District</span><select id="in-area"></select></label>
+          </div>
+          <label class="field" style="margin-bottom:0">
+            <span class="lab" data-i18n="loc.travel">🚗 How far will you travel?</span>
+            <div class="slider-wrap" style="margin-top:0">
+              <div class="slider-head"><span class="small muted" data-i18n="loc.radiusLabel">Search radius</span><span class="big" id="radius-val">8 km</span></div>
+              <input type="range" id="in-radius" min="2" max="15" step="1" value="8" />
+              <div class="slider-scale"><span>2 km</span><span>8 km</span><span>15 km</span></div>
+            </div>
+          </label>
+          <div class="radius-viz">
+            <div class="radius-ring" id="radius-ring">
+              <div class="ripple-c" style="width:60%;height:60%"></div>
+              <div class="ripple-c" style="width:100%;height:100%"></div>
+              <div class="core">🛒</div>
+            </div>
+          </div>
+          <div class="radius-count" id="radius-count"></div>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-ghost" data-go="landing" data-i18n="ui.back">← Back</button>
+          <button class="btn btn-primary" id="btn-location" data-i18n="ui.continue">Continue →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= 3. Household ========= -->
+    <section class="screen" data-screen="household">
+      <div class="stagger">
+        <div class="eyebrow" data-i18n="hh.step">Step 2 — About your household</div>
+        <h2 class="mb-8" data-i18n="hh.title">Who are you shopping for?</h2>
+        <p class="lead mb-16" data-i18n="hh.lead">This sets a sensible monthly grocery budget to compare against. You'll build your basket next.</p>
+        <div class="card">
+          <label class="field">
+            <span class="lab" data-i18n="hh.size">👪 Household size</span>
+            <div class="seg" id="in-household">
+              <button data-v="single"><span class="emoji">🙂</span><span data-i18n="hh.single">Just me</span></button>
+              <button data-v="couple" class="on"><span class="emoji">👫</span><span data-i18n="hh.couple">Couple</span></button>
+              <button data-v="family"><span class="emoji">👨‍👩‍👧</span><span data-i18n="hh.family">Family</span></button>
+              <button data-v="large"><span class="emoji">👨‍👩‍👧‍👦</span><span data-i18n="hh.large">Big family</span></button>
+            </div>
+          </label>
+          <label class="field" style="margin-bottom:0">
+            <span class="lab" data-i18n-html="hh.budget">🎯 Monthly grocery budget <span class="muted small">(optional)</span></span>
+            <div class="input-money"><span class="rm">RM</span>
+              <input class="input" id="in-budget" type="number" inputmode="numeric" min="0" step="50" placeholder="650" />
+            </div>
+          </label>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-ghost" data-go="location" data-i18n="ui.back">← Back</button>
+          <button class="btn btn-primary" id="btn-household" data-i18n="hh.cta">Build my basket →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= 4. Build basket ========= -->
+    <section class="screen" data-screen="basket">
+      <div class="stagger">
+        <div class="eyebrow" data-i18n="basket.step">Step 3 — Build your basket</div>
+        <h2 class="mb-8" data-i18n="basket.title">What do you need?</h2>
+        <p class="lead mb-16" data-i18n="basket.lead">Nothing is preselected — browse by category or search, then add what you actually need and set quantities.</p>
+        <div class="card">
+          <div class="basket-toolbar">
+            <input class="input search" id="basket-search" type="search" placeholder="🔍 Search groceries — eggs, rice, oil…" data-i18n-ph="basket.search" />
+          </div>
+          <div class="prod-wrap" id="prod-grid"></div>
+        </div>
+        <div class="btn-row" style="margin-top:18px">
+          <button class="btn btn-ghost" data-go="household" data-i18n="ui.back">← Back</button>
+        </div>
+      </div>
+      <div class="basket-summary" id="basket-summary"></div>
+    </section>
+
+    <!-- ========= 5. Review ========= -->
+    <section class="screen" data-screen="review">
+      <div id="review-body" class="stagger"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" data-go="basket" data-i18n="ui.editBasket">← Edit basket</button>
+        <button class="btn btn-primary" id="btn-review" data-i18n="review.cta">Find my savings →</button>
+      </div>
+    </section>
+
+    <!-- ========= 6. Optimising ========= -->
+    <section class="screen" data-screen="optimising">
+      <div id="optimising-body"></div>
+    </section>
+
+    <!-- ========= 7. Strategies ========= -->
+    <section class="screen" data-screen="strategies">
+      <div id="strategies-body" class="stagger"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" data-go="review" data-i18n="ui.back">← Back</button>
+        <button class="btn btn-primary" id="btn-strategies" data-i18n="strat.cta">Use this plan →</button>
+      </div>
+    </section>
+
+    <!-- ========= 8. Shopping plan ========= -->
+    <section class="screen" data-screen="plan">
+      <div id="plan-body" class="stagger"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" data-go="strategies" data-i18n="ui.compareAgain">← Compare again</button>
+        <button class="btn btn-primary" data-go="shop" data-i18n="plan.startCta">Start shopping →</button>
+      </div>
+    </section>
+
+    <!-- ========= 9. Shopping mode ========= -->
+    <section class="screen" data-screen="shop">
+      <div id="shop-body" class="stagger"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" data-go="plan" data-i18n="ui.backToPlan">← Back to plan</button>
+        <button class="btn btn-primary" data-go="confirm" data-i18n="shop.doneCta">Done shopping →</button>
+      </div>
+    </section>
+
+    <!-- ========= 10. Confirm actual savings ========= -->
+    <section class="screen" data-screen="confirm">
+      <div id="confirm-body" class="stagger"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" data-go="shop" data-i18n="ui.back">← Back</button>
+        <button class="btn btn-primary" id="btn-confirm" data-i18n="confirm.cta">See my impact →</button>
+      </div>
+    </section>
+
+    <!-- ========= 11. Impact dashboard ========= -->
+    <section class="screen" data-screen="impact">
+      <div id="impact-body" class="stagger"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" data-go="confirm" data-i18n="ui.back">← Back</button>
+        <button class="btn btn-primary" data-go="landing" data-i18n="impact.newBasket">↺ Start a new basket</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="credit">Creator: Tan Wei Siang</p>
+    <p class="own">Fully owned by Tan Wei Siang</p>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/snapshot.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/engine.js"></script>
+  <script src="assets/js/live.js"></script>
+  <script src="assets/js/jimat.js"></script>
+</body>
+</html>

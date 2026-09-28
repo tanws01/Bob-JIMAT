@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Python build tooling (snapshot regeneration only)
+__pycache__/
+*.pyc
+.venv/
+venv/
